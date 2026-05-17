@@ -255,9 +255,6 @@
                   <form action="/merk/add" method="POST" id="merkForm">
                     @csrf
                     <div class="card-body">
-<<<<<<< HEAD
-
-                      {{-- ======= BAGIAN YANG DIUBAH ======= --}}
                       <div class="form-group">
                         <label for="merk">Merk</label>
                         <input type="text"
@@ -272,14 +269,6 @@
                           </div>
                         @enderror
                       </div>
-                      {{-- ======= AKHIR BAGIAN YANG DIUBAH ======= --}}
-
-=======
-                      <div class="form-group">
-                        <label for="merk">Merk</label>
-                        <input type="text" class="form-control" id="merk" name="merk" placeholder="Nama Merk">
-                      </div>
->>>>>>> 3ce412db77e0f2f944b55e784e2613e7c218808f
                       <div class="form-group">
                         <label for="active">Active</label>
                         <select class="form-control" id="active" name="active">
